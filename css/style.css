@@ -41,3 +41,27 @@ main{
     font-weight: 750;
 }
 
+.link__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    gap: 1em;  
+}
+
+.link{
+    color: #AAA;
+    font-size: clamp(5px,5vw,40px);
+    font-weight: 700;
+    padding: 10px 50px;
+    
+    background: linear-gradient(to bottom,#4F4F4F,#444444);
+    border-radius: 5px;
+    box-shadow: 5px 5px 0 #171717, -1px 6px 0 #111111;
+    
+    outline-style: solid;
+    outline-width: thin;
+    outline-color: black;
+    outline-offset: 1px;
+}
+
