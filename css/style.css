@@ -25,9 +25,11 @@ main{
 
 .info__content{
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+    gap: 1.8em;
 }
 
 .iconimg{
