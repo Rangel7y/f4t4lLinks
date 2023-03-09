@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Oxanium', cursive;
 }
 
 body{
@@ -15,8 +17,22 @@ main{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    height: 100%;
 }
 
 .f4t4l{
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.username{
+    padding: 50px;
+    font-size: 30px;
+    font-weight: 750;
+}
+
+.icon{
+    width: 15%;
+    border-radius: 15px;
 }
