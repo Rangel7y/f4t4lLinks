@@ -6,7 +6,7 @@
 }
 
 body{
-    height: 100vh;
+    min-height: 100vh;
     background: linear-gradient(rgb(29, 29, 29),rgb(17, 17, 17));
 }
 
@@ -14,4 +14,9 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+.f4t4l{
+    display: flex;
 }
