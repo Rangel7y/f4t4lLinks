@@ -8,8 +8,12 @@
 }
 
 body{
+    background: linear-gradient(to bottom,#202020,#1f1f1f);
     min-height: 100vh;
-    background: linear-gradient(rgb(29, 29, 29),rgb(17, 17, 17));
+}
+
+main{
+    margin-top: 2%;
 }
 
 .all__content{
@@ -17,14 +21,18 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 100%;
-    margin-top: 2%;
 }
 
-.f4t4l{
+.info__content{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+.iconimg{
+    width: 15%;
+    border-radius: 15px;
 }
 
 .username{
@@ -33,7 +41,3 @@ body{
     font-weight: 750;
 }
 
-.iconimg{
-    width: 15%;
-    border-radius: 15px;
-}
