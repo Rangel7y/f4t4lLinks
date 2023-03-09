@@ -39,6 +39,12 @@ main{
     padding: 50px;
     font-size: 30px;
     font-weight: 750;
+    flex-grow: 1;
+    color: #868585;
+    outline-style: dotted;
+    outline-width: 2px;
+    outline-color: black;
+    outline-offset: clamp(1px,8vw,2px);
 }
 
 .link__content{
