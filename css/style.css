@@ -62,10 +62,13 @@ main{
 }
 
 .link{
+    display: flex;
+    justify-content: center;
     color: #AAA;
     font-size: clamp(5px,5vw,40px);
     font-weight: 700;
-    padding: 10px 50px;
+    width: clamp(180px,8vw,200px);
+    height: clamp(28px,8vw,35px);
     
     background: linear-gradient(to bottom,#4F4F4F,#444444);
     border-radius: 5px;
