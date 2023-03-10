@@ -64,19 +64,22 @@ main{
 .link{
     display: flex;
     justify-content: center;
+    align-items: center;
+
     color: #AAA;
-    font-size: clamp(5px,5vw,40px);
+    font-size: clamp(25px,5vw,30px);
     font-weight: 700;
+
     width: clamp(180px,8vw,200px);
     height: clamp(28px,8vw,35px);
     
     background: linear-gradient(to bottom,#4F4F4F,#444444);
-    border-radius: 5px;
+    border-radius: 2px;
     box-shadow: 5px 5px 0 #171717, -1px 6px 0 #111111;
     
-    outline-style: solid;
+    /* outline-style: solid;
     outline-width: thin;
     outline-color: black;
-    outline-offset: 1px;
+    outline-offset: 1px; */
 }
 
