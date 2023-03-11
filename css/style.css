@@ -67,7 +67,7 @@ main{
     align-items: center;
 
     color: #AAA;
-    font-size: clamp(25px,5vw,30px);
+    font-size: clamp(20px,5vw,25px);
     font-weight: 700;
 
     width: clamp(180px,8vw,200px);
@@ -77,9 +77,6 @@ main{
     border-radius: 2px;
     box-shadow: 5px 5px 0 #171717, -1px 6px 0 #111111;
     
-    /* outline-style: solid;
-    outline-width: thin;
-    outline-color: black;
-    outline-offset: 1px; */
+    text-decoration: none;
 }
 
