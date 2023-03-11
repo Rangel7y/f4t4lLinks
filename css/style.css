@@ -75,7 +75,7 @@ main{
     
     background: linear-gradient(to bottom,#4F4F4F,#444444);
     border-radius: 2px;
-    box-shadow: 5px 5px 0 #171717, -1px 6px 0 #111111;
+    box-shadow: 8px 8px 0 #171717, -1px 6px 0 #111111;
     
     text-decoration: none;
 }
