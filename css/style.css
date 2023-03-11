@@ -70,8 +70,8 @@ main{
     font-size: clamp(20px,5vw,25px);
     font-weight: 600;
 
-    width: clamp(180px,8vw,200px);
-    height: clamp(28px,8vw,35px);
+    width: clamp(190px,8vw,200px);
+    height: clamp(30px,8vw,35px);
     
     background: linear-gradient(to bottom,#4F4F4F,#444444);
     border-radius: 2px;
@@ -84,3 +84,6 @@ main{
     text-overflow: ellipsis; */
 }
 
+.link:hover{
+    width: clamp(180px,8vw,185px);
+}
