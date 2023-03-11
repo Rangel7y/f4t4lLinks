@@ -68,7 +68,7 @@ main{
 
     color: #AAA;
     font-size: clamp(20px,5vw,25px);
-    font-weight: 700;
+    font-weight: 600;
 
     width: clamp(180px,8vw,200px);
     height: clamp(28px,8vw,35px);
