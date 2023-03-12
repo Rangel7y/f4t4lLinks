@@ -82,9 +82,9 @@ main{
     /* white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis; */
+    transition: all 200ms ease;
 }
 
 .link:hover{
-    width: clamp(180px,8vw,185px);
-    transition: all 200ms ease;
+    transform: scale(1.08);
 }
