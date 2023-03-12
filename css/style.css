@@ -84,4 +84,5 @@ main{
 
 .link:hover{
     width: clamp(180px,8vw,185px);
+    transition: all 200ms ease;
 }
