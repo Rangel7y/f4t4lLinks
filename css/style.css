@@ -37,6 +37,7 @@ main{
 .iconimg{
     width: 80px;
     border-radius: 8px;
+    user-select: none;
 }
 
 .username{
@@ -49,6 +50,7 @@ main{
     outline-offset: clamp(1px,8vw,2px); */
     border-radius: 10px;
     border: 1px solid #000000;
+    user-select: none;
 }
 
 .link__content{
