@@ -82,9 +82,10 @@ main{
     /* white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis; */
-    transition: all 200ms ease;
+    transition: all 200ms ease, opacity 200ms ease-in-out;
 }
 
 .link:hover{
     transform: scale(1.08);
+    opacity: 0.8;
 }
