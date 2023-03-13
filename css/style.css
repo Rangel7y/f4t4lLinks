@@ -44,13 +44,11 @@ main{
     font-size: 30px;
     font-weight: 750;
     color: #868585;
-    /* outline-style: dotted;
-    outline-width: 2px;
-    outline-color: black;
-    outline-offset: clamp(1px,8vw,2px); */
-    border-radius: 10px;
-    border: 1px solid #000000;
-    user-select: none;
+}
+
+hr{
+    width: 180px;
+    border: 1px solid #868585;
 }
 
 .link__content{
