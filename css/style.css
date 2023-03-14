@@ -24,7 +24,7 @@ main{
     height: 100%;
 }
 
-.info__content{
+.header__content{
     display: flex;
     flex-direction: column;
     justify-content: center;
