@@ -27,15 +27,15 @@ main{
 .header__content{
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
+    align-items: center;
     width: 100%;
-    height: 200px;
-    gap: 5px;
+    height: 80px;
+    /* gap: 5px; */
 }
 
 .iconimg{
-    width: 90px;
-    border-radius: 8px;
+    width: 50px;
+    border-radius: 50%;
     user-select: none;
 }
 
@@ -46,7 +46,8 @@ main{
 }
 
 hr{
-    /* width: 180px; */
+    width: 100%;
+    height: 1px;
     border: 1px solid #8685852a;
 }
 
