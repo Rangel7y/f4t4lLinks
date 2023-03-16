@@ -7,11 +7,28 @@
     font-family: 'Oxanium', cursive;
 }
 
+:root{
+    --color-gray1: rgba(176, 179, 184,0.1);
+    --color-gray2: rgba(228, 230, 235,0.5);
+    --color-gray3: rgb(255, 255, 255, 0.8);
+
+    --color-text-gray: #868585;
+
+    --bg-url: linear-gradient(to bottom,#202020,#1f1f1f);
+}
+
+.light{
+    --color-gray1: rgba(24, 25, 26,0.1);
+    --color-gray2: rgba(36, 37, 38,0.5);
+    --color-gray3: rgba(58, 59, 60,0.8);
+
+    --bg-url: linear-gradient(to bottom,#F5F5F5,#F0F0F0);
+}
+
 body{
-    /* background: linear-gradient(to bottom,#202020,#1f1f1f); */
-    /* background: url('../images/wallpaper.png') no-repeat top center/cover; */
-    background: url('../images/wallpaper.png') top center/cover;
     height: 100vh;
+    background: var(--bg-url);
+    /* background: url('../images/wallpaper.png') top center/cover; */   
 }
 
 .container__content{
@@ -31,7 +48,6 @@ body{
     justify-content: center;
     flex-direction: column;
     gap: 1px;
-
     padding: 20px;
 }
 
@@ -39,7 +55,7 @@ body{
     width: 80px;
     border-radius: 50%;
     user-select: none;
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    border: 1px solid var(--color-gray2);
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
 }
@@ -47,13 +63,13 @@ body{
 .username{
     font-size: 30px;
     font-weight: 720;
-    color: #868585;
+    color: var(--color-gray2);
 }
 
 hr{
     width: 180px;
     height: 1px;
-    border: 1px solid #8685852a;
+    border: 1px solid var(--color-gray1);
     margin-top: -20px;
 }
 
@@ -74,32 +90,26 @@ hr{
 
     padding: 16px 24px;
 
-    color: #d1d1d1;
+    color: var(--color-gray2);
     font-size: clamp(20px,5vw,25px);
     font-weight: 500;
 
     width: clamp(190px,8vw,200px);
     height: clamp(30px,8vw,35px);
     
-    background: rgba(255, 255, 255, 0.1);
-    border: 1px solid rgba(255, 255, 255, 0.5);
+    background: var(--color-gray1);
+    border: 1px solid var(--color-gray2);
     border-radius: 2px;
-
-    /* backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px); */
     
     text-decoration: none;
 
-    /* white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis; */
     transition: all 200ms ease, background 200ms ease-in-out;
 }
 
 .link:hover{
     transform: scale(1.08);
-    background: rgba(255, 255, 255, 0.05);
-    border: 1.5px solid white;
+    background: var(--color-gray2);
+    border: 1.5px solid var(--color-gray3);
 }
 
 .social__links{
@@ -119,13 +129,13 @@ hr{
     transition: all 200ms ease, background 200ms ease-in-out;
 }
 
-.social__link:hover{
-    transform: scale(1.1);
-    background: rgba(255, 255, 255, 0.05);
+ion-icon {
+    color: var(--color-gray2);
 }
 
-ion-icon {
-    color: gray;
+.social__link:hover{
+    transform: scale(1.1);
+    background: var(--color-gray2);
 }
 
 .footer__content{
@@ -133,5 +143,5 @@ ion-icon {
     text-align: center;
     user-select: none;
 
-    color: rgba(128, 128, 128, 0.1);
+    color: var(--color-gray1);
 }
