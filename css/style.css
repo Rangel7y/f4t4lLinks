@@ -19,7 +19,7 @@ body{
     flex-direction: column;
 }
 
-.header__content{
+.profile__content{
     display: flex;
     align-items: center;
     justify-content: center;
