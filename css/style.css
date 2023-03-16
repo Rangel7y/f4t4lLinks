@@ -12,7 +12,7 @@ body{
     height: 100vh;
 }
 
-.all__content{
+.container__content{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,7 +45,7 @@ hr{
     border: 1px solid #8685852a;
 }
 
-.link__content{
+.links{
     display: flex;
     flex-direction: column;
     justify-content: center;
