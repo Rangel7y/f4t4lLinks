@@ -103,7 +103,22 @@ hr{
 .social__links{
     display: flex;
     justify-content: center;
-    gap: 32px;
-    padding: 16px 0;
+
+    padding: 24px 0;
     font-size: 24px;
+    
+}
+
+.social__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    border-radius: 50%;
+    transition: all 200ms ease, background 200ms ease-in-out;
+}
+
+.social__link:hover{
+    transform: scale(1.1);
+    background: rgba(255, 255, 255, 0.05);
 }
