@@ -15,6 +15,8 @@
     --color-text-gray: #868585;
 
     --bg-url: linear-gradient(to bottom,#202020,#1f1f1f);
+
+    --switch-bg-url: url('../assets/moon-stars.svg');
 }
 
 .light{
@@ -22,7 +24,9 @@
     --color-gray2: rgba(36, 37, 38,0.8);
     --color-gray3: rgba(58, 59, 60,0.8);
 
-    --bg-url: linear-gradient(to bottom,#F5F5F5,#F0F0F0);
+    --bg-url: linear-gradient(to bottom,#F5F5F5,#F0F0F0);  
+    
+    --switch-bg-url: url('../assets/sun.svg');
 }
 
 body{
@@ -72,6 +76,16 @@ hr{
     height: 1px;
     border: 1px solid var(--color-gray1);
     margin-top: -20px;
+}
+
+#switch{
+    width: 32px;
+    height: 32px;
+    background: white;
+    border: 0;
+    border-radius: 50%;
+    background-image: var(--switch-bg-url);
+    background-size: cover;
 }
 
 .links{
