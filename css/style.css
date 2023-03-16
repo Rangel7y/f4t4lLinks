@@ -40,7 +40,7 @@ body{
 
 .username{
     font-size: 30px;
-    font-weight: 750;
+    font-weight: 720;
     color: #868585;
 }
 
@@ -67,14 +67,14 @@ hr{
 
     color: #AAA;
     font-size: clamp(20px,5vw,25px);
-    font-weight: 600;
+    font-weight: 550;
 
     width: clamp(190px,8vw,200px);
     height: clamp(30px,8vw,35px);
     
     background: linear-gradient(to bottom,#4F4F4F,#444444);
     border-radius: 2px;
-    box-shadow: 5px 5px 0 #171717, 3px 5px 0 #111111;
+    /* box-shadow: 0px 5px 0 #838383, 3px 5px 0 #575757; */
     
     text-decoration: none;
 
