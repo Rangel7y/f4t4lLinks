@@ -36,7 +36,9 @@ body{
     width: 80px;
     border-radius: 50%;
     user-select: none;
-    border: 1px solid rgba(97, 97, 97, 0.753);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
 }
 
 .username{
@@ -69,24 +71,28 @@ hr{
 
     color: #d1d1d1;
     font-size: clamp(20px,5vw,25px);
-    font-weight: 550;
+    font-weight: 500;
 
     width: clamp(190px,8vw,200px);
     height: clamp(30px,8vw,35px);
     
-    background: linear-gradient(to bottom,#3a3a3a,#464646);
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 2px;
-    border: 1px solid rgba(97, 97, 97, 0.753);
+
+    /* backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px); */
     
     text-decoration: none;
 
     /* white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis; */
-    transition: all 200ms ease, opacity 200ms ease-in-out;
+    transition: all 200ms ease, background 200ms ease-in-out;
 }
 
 .link:hover{
     transform: scale(1.08);
-    opacity: 0.8;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1.5px solid white;
 }
