@@ -13,10 +13,13 @@ body{
 }
 
 .container__content{
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: -80px;
 }
 
 .profile__content{
@@ -25,10 +28,12 @@ body{
     justify-content: center;
     flex-direction: column;
     gap: 1px;
+
+    padding: 20px;
 }
 
 .iconimg{
-    width: 50px;
+    width: 80px;
     border-radius: 50%;
     user-select: none;
 }
@@ -43,6 +48,7 @@ hr{
     width: 180px;
     height: 1px;
     border: 1px solid #8685852a;
+    margin-top: -20px;
 }
 
 .links{
@@ -50,7 +56,8 @@ hr{
     flex-direction: column;
     justify-content: center;
     align-items: center; 
-    gap: 1em;  
+    gap: 1em;
+    padding: 24px;  
 }
 
 .link{
