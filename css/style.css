@@ -36,6 +36,7 @@ body{
     width: 80px;
     border-radius: 50%;
     user-select: none;
+    border: 1px solid rgba(97, 97, 97, 0.753);
 }
 
 .username{
@@ -57,7 +58,8 @@ hr{
     justify-content: center;
     align-items: center; 
     gap: 1em;
-    padding: 24px;  
+    padding: 24px;
+    list-style: none;  
 }
 
 .link{
@@ -65,16 +67,16 @@ hr{
     justify-content: center;
     align-items: center;
 
-    color: #AAA;
+    color: #d1d1d1;
     font-size: clamp(20px,5vw,25px);
     font-weight: 550;
 
     width: clamp(190px,8vw,200px);
     height: clamp(30px,8vw,35px);
     
-    background: linear-gradient(to bottom,#4F4F4F,#444444);
+    background: linear-gradient(to bottom,#3a3a3a,#464646);
     border-radius: 2px;
-    /* box-shadow: 0px 5px 0 #838383, 3px 5px 0 #575757; */
+    border: 1px solid rgba(97, 97, 97, 0.753);
     
     text-decoration: none;
 
