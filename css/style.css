@@ -125,3 +125,11 @@ hr{
 ion-icon {
     color: gray;
 }
+
+.footer__content{
+    padding: 24px 0;
+    text-align: center;
+    user-select: none;
+
+    color: rgba(128, 128, 128, 0.1);
+}
