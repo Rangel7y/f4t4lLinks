@@ -18,9 +18,9 @@
 }
 
 .light{
-    --color-gray1: rgba(24, 25, 26,0.5);
-    --color-gray2: rgba(36, 37, 38,0.8);
-    --color-gray3: rgba(58, 59, 60,0.1);
+    --color-gray1: rgba(24, 25, 26,0.8);
+    --color-gray2: rgba(36, 37, 38,0.1);
+    --color-gray3: rgba(58, 59, 60,0.5);
 
     --bg-url: linear-gradient(to bottom,#F5F5F5,#F0F0F0);
 }
