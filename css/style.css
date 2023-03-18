@@ -189,7 +189,7 @@ ion-icon {
     color: var(--color-gray1);
 }
 
-@media (min-width: 700px) {
+/* @media (min-width: 700px) {
     :root {
       --bg-url: linear-gradient(to bottom,#202020,#1f1f1f);
     }
@@ -197,7 +197,7 @@ ion-icon {
     .light {
       --bg-url: linear-gradient(to bottom,#F5F5F5,#F0F0F0); 
     }
-}
+} */
 
 @keyframes slide-in {
     from {
