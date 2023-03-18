@@ -60,9 +60,7 @@ body{
     width: 80px;
     border-radius: 50%;
     user-select: none;
-    border: 1px solid var(--color-gray2);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid var(--color-gray3);
 }
 
 .username{
@@ -88,7 +86,7 @@ hr{
 #switch button{
     width: 32px;
     height: 32px;
-    background: white;
+    background: var(--color-gray3);
     border: 0;
     border-radius: 50%;
     background-image: var(--switch-bg-url);
